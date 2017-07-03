@@ -1,0 +1,195 @@
+       /*reset*/
+       i {
+         margin-right: 4px;
+       }
+       /*reset end*/
+      
+       body {
+         position: relative;
+         min-width: 394px; 
+       }
+       .affix {
+          top:0;
+          width: 100%;
+          z-index: 9999 !important;
+       }
+       .navbar {
+         /*消除Navbar底部默认边距*/
+          margin-bottom: 0px;
+       }
+       .top-header {
+         padding: 20px 0;
+         background-color: #E3722E;
+         color: #fff;
+       }
+       .top-header span {
+         display: inline-block;
+         float: left;
+         width: 195px;
+       }
+       .top-header a {
+         display: inline-block;
+         float: right;
+         margin-left: 12px;
+         width: 24px;
+         text-align: center;
+         color: #fff;
+         text-decoration: none;
+         cursor: pointer;
+         -webkit-transition: color .6s;
+         -moz-transition: color .6s;
+         -ms-transition: color .6s;
+         transition: color .6s;
+       }
+       .top-header a:first-child {
+         width:80px;
+       }
+       .top-header a:hover {
+         color: #000; 
+       }
+       
+       /*-----main-nav-----*/
+      .main-nav > li > a {
+        transition: border-left .3s, border-right .3s
+      }
+      .main-nav > li > a:hover {
+        border-left: 3px solid #E3722E;
+        border-right: 3px solid #E3722E;
+      }
+       .navbar-nav .nav-lead {
+         font-size: 16px;
+         color: #E3722E;
+       }
+       .form-search {
+         float: left;
+         margin-left: 8%;
+         padding-top: 12px;
+         width: 260px; 
+       } 
+       .form-search > .form-control {
+         height: 28px;
+       }
+        /*-----carousel-----*/
+       .carousel,
+       .section-header {
+         margin-bottom: 18px;
+       }
+       #myCarousel .banner-arrow {
+         position: absolute;
+         top: 42%;
+       }
+       .section-nav > .nav-pills {
+         padding: 14px 0;
+       }
+       .section-more {
+         padding: 18px 0;
+       }
+       .nav-pills >li > a{
+         margin-right: 10px;
+         padding: 4px 10px;
+         color: #333;
+       }
+       .imgbox {
+         margin-bottom: 30px;
+         padding: 7px .95% 14px;
+         width: 98%;
+         text-align: center;
+         transition: -webkit-box-shadow .4s;
+       }
+       .imgbox:hover {
+         -webkit-box-shadow: 0 0 12px #AAA;
+         box-shadow: 0 0 12px #AAA;
+       }
+       .imgbox img {
+         width: 98%;
+         height: 225px;
+       }
+       .imgbox > .img-source,
+       .imgbox > .img-save {
+         padding-top: 4px;
+       }
+       .imgbox > .img-source a,
+       .imgbox > .img-source span,
+       .img-save > .img-save-color {
+         display: inline-block;
+         padding-left: 6px;
+         padding-right: 6px;
+         color: #999;
+         text-decoration: none;
+         cursor: pointer;
+         transition: color .4s;
+       }
+       .imgbox > .img-source span:hover,
+       .img-save > .img-save-color:hover {
+         color: #555;
+       }
+       .img-tit {
+         padding-top: 12px;
+         font-size: 16px;
+       }
+       
+      /*-----banner-ads-----*/
+      .banner-ads img {
+        width: 100%;
+        height: 220px;
+      }
+      
+      /*-----sider-button-----*/
+      .sider-box {
+        position: fixed;
+        z-index: 9;
+        right: 6px;
+        bottom: 116px;
+        width: 72px;
+        color: #888;
+        text-align: center;
+      }
+      .app-download,
+      .weibo,
+      .wechat,
+      .back-top {
+      	position: relative;
+        margin-top: 2px;
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        background-color: rgba(0,0,0,.8);
+        cursor: pointer;
+      }
+      .app-code,
+      .weibo-code,
+      .wechat-code {
+      	position: absolute;
+      	z-index: 10;
+      	right: 72px;
+      	bottom: 0;
+      	display: none;
+      	width: 160px;
+      	height: 208px;
+        background: url(../img/myQRcode.png) no-repeat left top;
+      }
+      .back-top > a {
+      	text-decoration: none;
+      	color: #888;
+      	outline: none;
+      }
+      .back-top > a:hover {
+      	color: #fff;
+      }
+      /*-----footer-----*/
+      .footer {
+        margin-top: 24px;
+        padding: 24px;
+        background-color: #222;
+      }
+      .footer > .list-inline > li a {
+        color: #ADADAD;
+      }
+      .footer > p > a {
+        color: #666;
+        text-decoration: none;
+        transition: color .4s;
+      }
+      .footer > p > a:hover {
+        color: #ADADAD;
+      }
